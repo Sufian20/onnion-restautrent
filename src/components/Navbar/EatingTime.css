@@ -1,0 +1,68 @@
+nav{
+    position: relative;
+    margin: 70px auto 0;
+    width: 590px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 0;
+    text-align: center;
+   
+}
+
+
+
+nav a{
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center; 
+    font-weight: bold;
+}
+
+nav .animation{
+ position:  absolute;
+ height: 5px;
+ bottom:  0;
+ z-index: 0;
+ background: #F91944;
+ width: 100px;
+ border-radius: 8px;
+ border-radius: 8px;
+ transition: all .5s ease 0s;
+ color: white;
+}
+a:hover{
+    color: #F91944;
+    transition: all .5s ease 0s;
+}
+a:nth-child(1){
+    width: 100px;
+}
+
+nav .start-home,a:nth-child(1):hover~.animation{
+    width: 100px;
+    left: 142px;
+
+}
+nav a:nth-child(2){
+    width: 110px;
+}
+
+nav .start-about,a:nth-child(2):hover~.animation{
+    width: 110px;
+    left: 237px;
+
+}
+a:nth-child(3){
+    width: 100px;
+}
+
+nav .start-blog,a:nth-child(3):hover~.animation{
+    width: 100px;
+    left: 350px;
+
+}

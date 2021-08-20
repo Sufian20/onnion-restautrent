@@ -1,0 +1,40 @@
+.topBar{
+    display: flex;
+    padding: 8px 0px 20px 0px;
+
+}
+
+.logo{
+    position: relative;
+    top: 12px;
+}
+.logo img{
+    height: 55px;
+    
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.top-components{
+    position: absolute;
+    right: 0px;
+    padding-top: 10px;
+}
+.topBar .top-components{
+    float: right;
+}
+
+.topBar .top-components ul li{
+    margin-right: 45px;
+    display: inline-block;
+    font-weight: bold;
+    transition: all .5s ease;
+    
+}
+
+.top-components ul li:hover{
+    color: #F91944;
+    transition: all .5s ease;
+}
