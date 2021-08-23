@@ -1,16 +1,23 @@
 import React from 'react';
 import * as ReactBootstrap from 'react-bootstrap';
-import './EatingTime.css';
+import { Link } from 'react-router-dom';
+
+
+
+
 
 const EatingTme = () => {
+    
+
     return (
         <div>
-             <nav>
-                <a href="">Breakfirst</a>
-                <a href="/lunch" className="ReactBootstrap.active">Lunch</a>
-                <a href="">Dinner</a>
-                <div class="animation start-home"></div>
-            </nav>
+            {/* <button onClick={handelBreakfirst}>Breakfirst</button>
+            <button onClick={handelLunch}>Lunch</button>
+            <button onClick={handelDinner}>Dinner</button> */}
+           
+
+
+           
         </div>
     );
 };

@@ -6,7 +6,6 @@ import {
   Link
 } from "react-router-dom";
 
-import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import NontFound from './components/NotFoundPage/NontFound';
 
@@ -16,12 +15,13 @@ function App() {
     <div className="App">
 
       <Router>
+      
         <Switch>
           <Route exact path="/">
             <Home></Home>
           </Route>
           <Route path="/home">
-            <Home></Home>
+           <Home></Home>
           </Route>
           <Route path="*">
             <NontFound></NontFound>
