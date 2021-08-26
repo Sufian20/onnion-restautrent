@@ -5,7 +5,17 @@ import './TopBar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
+
+import { useState } from 'react';
+import { useEffect } from 'react';
+import { getDatabaseCart } from '../../utilities/databaseManager';
+import Cart from '../Cart/Cart';
+
 const TopBar = () => {
+    // const cart = props.cart;
+
+   
+
     return (
         <reactBoot.Container>
             <div className="topBar">
@@ -19,13 +29,15 @@ const TopBar = () => {
                     <reactBoot.Col xs={8}>
                         <div className="top-components">
                             <ul>
-                                <li><FontAwesomeIcon icon={faShoppingCart} /></li>
+                                <li>
+                                    <Cart></Cart>
+                                </li>
                                 <li>Login</li>
                                 <li> <button className="main-btn">Sign up</button></li>
                             </ul>
-                            
-                            
-                           
+
+
+
                         </div>
                     </reactBoot.Col>
 

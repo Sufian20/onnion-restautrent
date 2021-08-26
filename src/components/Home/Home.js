@@ -15,7 +15,7 @@ const Home = () => {
 
     return (
         <div>
-            <TopBar></TopBar>
+            
             <Header></Header>
             <CurentItem></CurentItem>
         </div>

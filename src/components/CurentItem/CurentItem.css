@@ -44,10 +44,14 @@
     padding-bottom: 30px;
     transition: all .5s ease;
 }
-.item-name{
+h6 .item-name Link{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+    color: #000;
+    text-decoration: none;
 }
+
+
 .item-des{
     color: #A1A1A1;
     font-family: 'Open Sans', sans-serif;

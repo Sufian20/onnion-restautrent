@@ -38,3 +38,23 @@ ul li{
     color: #F91944;
     transition: all .5s ease;
 }
+
+.cart-icon{
+    color: #F91944;
+    background: #fff;
+    border: none;
+}
+
+.cart-icon:hover{
+    color: #F91944;
+    background: #fff;
+    border: none;
+
+}
+
+.show > .btn-primary.dropdown-toggle:focus{
+    color: #F91944;
+    background: #fff;
+    border: none;
+    overflow: hidden;
+}
